@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "fix_too_many_registered_channels",
+	"version": "${version}",
+	"name": "FixTooManyRegisteredChannels",
+	"description": "No more \"Too many registered channels\"",
+	"authors": [
+		"SheepYhangCN"
+	],
+	"contact": {
+		"homepage": "https://sheepyuhang.top/",
+		"sources": "https://github.com/SheepYhangCN/FixTooManyRegisteredChannels"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fix_too_many_registered_channels/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.sheepyuhang.fix_too_many_registered_channels.FixTooManyRegisteredChannels"
+		],
+		"client": [
+			"top.sheepyuhang.fix_too_many_registered_channels.client.FixTooManyRegisteredChannelsClient"
+		],
+		"modmenu": [
+			"top.sheepyuhang.fix_too_many_registered_channels.client.compat.ModMenuCompat"
+		]
+	},
+	"mixins": [
+		"fix_too_many_registered_channels.mixins.json",
+		{
+			"config": "fix_too_many_registered_channels.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": ">=3.8.1+1.21.11-fabric"
+	},
+	"recommends": {
+		"modmenu": "*"
+	}
+}

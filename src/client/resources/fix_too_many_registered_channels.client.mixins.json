@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "top.sheepyuhang.fix_too_many_registered_channels.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"OutboundChannelRegistrationMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

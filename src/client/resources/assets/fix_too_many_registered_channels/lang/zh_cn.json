@@ -1,0 +1,6 @@
+{
+  "config.fix_too_many_registered_channels.title": "修复 Too Many Registered Channels",
+  "config.fix_too_many_registered_channels.category.general": "常规",
+  "config.fix_too_many_registered_channels.option.disableModChannels.name": "禁用模组通道",
+  "config.fix_too_many_registered_channels.option.disableModChannels.description": "阻止模组注册自定义网络通道，以解决 Too Many Registered Channels 错误。"
+}

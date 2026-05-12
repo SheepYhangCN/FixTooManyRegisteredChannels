@@ -1,0 +1,6 @@
+{
+  "config.fix_too_many_registered_channels.title": "Fix Too Many Registered Channels",
+  "config.fix_too_many_registered_channels.category.general": "General",
+  "config.fix_too_many_registered_channels.option.disableModChannels.name": "Disable Mod Channels",
+  "config.fix_too_many_registered_channels.option.disableModChannels.description": "Prevents mods from registering custom network channels, to resolve the 'Too Many Registered Channels' error."
+}
